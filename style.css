@@ -1,0 +1,50 @@
+.container{
+    height: 90vh;
+    margin: 3rem;
+    background-image: url('./joke.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    border: 2px solid ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#select{
+    background-color:rgb(236, 180, 106);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 15rem;
+    left: 30rem;
+    
+}
+button{
+    background-color:rgb(236, 180, 106);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 15rem;
+    right: 30rem;
+}
+button,#select:hover{
+    border: 2px solid rgb(112, 71, 17);
+}
+.joke{
+    padding-top: 17rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+   
+}
