@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Joke Generator</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
+        <h1>😂Random Joke Generator</h1>
+        <div class="controls">
+            <select id="select">
+                <option value="Programming">Programming</option>
+                <option value="Dark">Dark</option>
+                <option value="Misc">Misc</option>
+                <option value="Christmas">Christmas</option>
+                <option value="Pun">Pun</option>
+                <option value="Spooky">Spooky</option>
+            </select>
         <button onclick="getjoke()">Get Joke</button>
-        <select id="select">
-            <option value="Programming">Programming</option>
-            <option value="Dark">Dark</option>
-            <option value="Misc">Misc</option>
-            <option value="Christmas">Christmas</option>
-            <option value="Pun">Pun</option>
-            <option value="Spooky">Spooky</option>
-        </select>
+        </div>
         <div class="joke">
-        <h1 id="joke"></h1>
-        <h1 id="setup"></h1>
-        <h1 id="delivery"></h1>
-        <p id="count"></p>
+            <h1 id="joke"></h1>
+            <h1 id="setup"></h1>
+            <h1 id="delivery"></h1>
+            <p id="count"></p>
         </div>
     </div>
         <script src="./script.js"></script>

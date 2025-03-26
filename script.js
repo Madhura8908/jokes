@@ -17,5 +17,4 @@ async function getjoke(){
     }
     count++;
     document.getElementById('count').innerText=`You have read ${count} pieces of jokes today!`
-    console.log(jokes)
 }
